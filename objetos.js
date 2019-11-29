@@ -40,10 +40,11 @@ var cachorro = {
     cor: 'preto',
     idade: '10',
 
+    //Metódo
     latir(pessoa){
         if(pessoa !== 'homem'){
             //return console.log('não latir');
-            return 'não latir'
+            return 'faz nada'
         }else{
             //return console.log('latir');
             return 'latir'
@@ -52,4 +53,4 @@ var cachorro = {
 
 }
 
-console.log(cachorro.latir('homem'))
+console.log(cachorro.latir('mulher').toUpperCase())
