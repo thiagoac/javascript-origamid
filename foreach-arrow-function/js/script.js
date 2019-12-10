@@ -28,3 +28,8 @@ arrayTitulos.forEach((item) => {
 arrayTitulos.forEach((item) => {
     console.log(item.innerHTML)
 })
+
+//classList
+
+const menu = document.querySelector('.menu')
+console.log(menu.classList)
