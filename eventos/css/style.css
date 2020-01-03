@@ -3,6 +3,11 @@ body, h1, h2, h3, ul, li, dd, dt, dl{
     padding: 0px;
 }
 
+/*aumenta texto de acordo com o eento*/
+html.aumentaTexto{
+    font-size: 150%;
+}
+
 img{
     display: block;
     max-width: 100%;

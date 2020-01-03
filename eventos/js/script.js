@@ -1,13 +1,10 @@
-const clickImagen = document.querySelector('img')
-/*
-function callback(){
-    console.log("imagem clicada")
-}
-*/
+const clickImagens = document.querySelectorAll('img')
 
 function callback(event){
     console.log(event.target) // é possível selecionar os atributos do evento 
 }
 
-//evento e função de Callback
-clickImagen.addEventListener('click', callback) 
+clickImagens.forEach((imagem) => {
+    imagem.addEventListener('click', callback) 
+})
+
